@@ -9,7 +9,7 @@ body, html {
 }
 
 #wrap {
-  width: 750px;
+  width: 1050px;
   height: 750px;
   margin: 0 auto;
 }
@@ -19,6 +19,8 @@ body, html {
   height: 35px;
   margin-left:10px;
   margin-right: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   padding-bottom: 15px;
   list-style-type: none;
   /*border-bottom: 1px solid;*/
@@ -58,8 +60,8 @@ body, html {
 #arrow {
   padding-right: 10px;
   padding-left: 10px;
-  border-right: 1px solid black;
-  border-left: 1px solid black;
+  border-right: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
   float: right;
   position: relative;
   top: 50%;
@@ -73,4 +75,118 @@ body, html {
   top: 50%;
   transform: translateY(-50%);
   padding-left: 10px;
+}
+#java {
+  background-color: #FFFFFF;
+  width: 450px;
+  height: 300px;
+  border-radius: 5px 5px 5px;
+  margin-left: 28px;
+}
+
+.header {
+  height: 50px;
+  border-radius: 5px 5px 5px;
+  background-color: #2C9676;
+  line-height: 50px;
+}
+
+.icon {
+  float: left;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+.book {
+  width: 25px;
+  padding-left: 10px;
+  vertical-align: middle;
+}
+
+.circle {
+  width: 10px;
+}
+
+.mins {
+  float: right;
+  color: white;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+.main {
+  padding-top: 15px;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-bottom: 15px;
+}
+.course-title {
+  color:#7C8C8F;
+  font-size: 18px;
+}
+.course-name {
+  color: #4B5658;
+  font-size: 20px;
+}
+.course-descript {
+  color:#7C8C8F;
+  font-size: 16px;
+}
+.lang-button {
+  float: left;
+  margin-right: 5px;
+  -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 30px;
+	border: solid 3px #EFF1F3;
+  padding: 5px;
+  width: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #2C9676;
+  height: 20px;
+}
+.difficulty {
+  float: left;
+  -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 30px;
+	border: solid 3px #EFF1F3;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+  font-size: 14px;
+  color: #7C8C8F;
+  height: 20px;
+}
+.play-button {
+  float: right;
+  margin-right: 5px;
+  -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 50%;
+	border: solid 3px #EFF1F3;
+  padding: 5px;
+  height: 20px;
+}
+.fave-button {
+  float: right;
+  -webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 50%;
+	border: solid 3px #EFF1F3;
+  padding: 5px;
+  height: 20px;
+}
+.star {
+  width: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.play {
+  width: 18px;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
 }
