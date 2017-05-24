@@ -1,0 +1,76 @@
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  color:#000;
+  background: #EDEFF0;
+  font-family: sans-serif;
+}
+
+#wrap {
+  width: 750px;
+  height: 750px;
+  margin: 0 auto;
+}
+
+#nav {
+  /*display: inline;*/
+  height: 35px;
+  margin-left:10px;
+  margin-right: 10px;
+  padding-bottom: 15px;
+  list-style-type: none;
+  /*border-bottom: 1px solid;*/
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+}
+
+#nav img {
+  width: 30px;
+}
+
+#library {
+  padding-left: 20px;
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#person {
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-right: 10px;
+}
+
+#number {
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+#arrow {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#bell {
+  padding-right: 20px;
+  float: right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 10px;
+}
